@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUTURE CAREER</title>
+    <link rel="stylesheet" href="./Future Career.css">
+    <script>
+        function func() {
+          var detail = document.getElementById("details");
+          if (detail.style.display === "block") {
+            detail.style.display = "none";
+          } else {
+            detail.style.display = "block";
+          }
+        }function func1() {
+          var detail = document.getElementById("details1");
+          if (detail.style.display === "none") {
+            detail.style.display = "block";
+          } else {
+            detail.style.display = "none";
+          }
+        }function func2() {
+          var detail = document.getElementById("details2");
+          if (detail.style.display === "none") {
+            detail.style.display = "block";
+          } else {
+            detail.style.display = "none";
+          }
+        }
+    </script>
+</head>
+<body>
+    <nav class="stroke">
+        <ul>
+            <li style="float: left"><img src="photo/—Pngtree—wolf_96882.png"></li>
+            <li><a class="active" href="home.html">Home</a></li>
+            <li><a class="active" href="aboutme.html">About Me</a></li>
+            <li><a class="active" href="education.html">Education</a></li>
+            <li><a class="active" href="skill.html">Skill</a></li>
+            <li><a class="active" href="futurecareer.html">Future Career</a></li>
+        </ul>
+        <p>FUTURE CAREER</p>
+    </nav>
+    
+    <div class="future">
+        <p class="head">MY Career In Future</p>
+        <ul>
+            <p class="future1">Application Developer</p>
+            <button type="button" onclick="func()">Show Details</button>
+            <p id="details">=====> อาชีพที่กำลังเป็นที่ต้องการในปัจจุบัน มีความต้องการผู้พัฒนาระบบขององค์กรตนเองจึงสามารถเจาะกลุ่มเป้าหมายได้ชัดเจน</p>
+            <p class="future1">Data Architect</p>
+            <button type="button" onclick="func1()">Show Details</button>
+            <p id="details1">=====> เป็นอาชีพและตำแหน่งหน้าที่ ที่คอยรวบรวมข้อมูลในตลาดและนำมาจัดการรายงานให้สามารถอ่านและทำความเข้าใจได้มากขึ้น</p>
+            <p class="future1">Business man</p>
+            <button type="button" onclick="func2()">Show Details</button>
+            <p id="details2">=====> อาชีพที่ทำเกี่ยวกับการบริหารธุรกิจทุก ๆ ด้านคอยสอดส่องการตลาดในปัจจุบัน</p>
+            
+        </ul>    
+    </div>
+    <div class="blank">
+    </div>
+</body>
+</html>
