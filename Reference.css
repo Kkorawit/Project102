@@ -3,7 +3,6 @@ body {
     padding: 0;
     background-color: #173040;
     font-family: 'Xanh Mono', monospace;
-    
 }
 nav {
     width: 100%;
@@ -82,8 +81,6 @@ nav ul li a:hover {
 }
 nav ul li a.active {
     background-color: #ffff;
-     /* -webkit-transition: background-color 1000ms linear;
-     transition: background-color 1000ms ease-in; */
  }
 nav.stroke ul li a{
     position: relative;
@@ -96,7 +93,6 @@ nav.stroke ul li a:after {
     right: 0;
     margin: auto;
     width: 0%;
-    content: '.';
     color: transparent;
     background: #aaa;
     height: 1px;
@@ -104,75 +100,38 @@ nav.stroke ul li a:after {
 nav.stroke ul li a:hover:after {
     width: 100%;
 }
-div.future{
-        background-color: #2F4959;
-        line-height: 25px;
+div.ref{
+    background-color: #2F4959;
+    line-height: 25px;
 }
-div.future ul{
-        background-color: #2F4959;
-        padding-bottom: 50px;
+div.ref div.block{
+    background-color: #8F9DA6;
+    margin: 50px;
 }
-div.future p.head{
-    text-align: center;
-    font-size: xx-large;
+div.ref div.block h2{
     color: #d9b97e;
-    text-decoration: overline underline black 3px;
-    margin-top: -10px;
-    padding-top: 30px;
+    text-decoration: underline dashed 2px;
+    padding-left: 20px;
 }
-div.future p.future1{
-    color: white;
-    font-weight: bold;
+div.ref div.block h3{
+    color: black;
+    padding-left: 20px;
+}
+div.ref div.block a{
+    color: black;
     font-size: x-large;
-    text-decoration: underline black 3px;
-    padding: 15px;
+    position: relative;
+    left: 160px;
+    top: 50px;
 }
-div.future p.details{
-    color: #d9b97e;
-    font-weight: lighter;
-    font-style: italic;
-    opacity: 0%;
-    transition: 1s;
+div.ref div.block a:hover{
+    color: white;
     
 }
-#details {
-    width: 1000px;
-    padding: 30px 0;
-    text-align: center;
-    background-color: lightblue;
-    margin-top: -20px;
-    display: none;
-    font-family: 'Mali', cursive;
-  }
-  #details1 {
-    width: 1000px;
-    padding: 30px 0;
-    text-align: center;
-    background-color: lightblue;
-    margin-top: -20px;
-    display: none;
-    font-family: 'Mali', cursive;
-  }
-  #details2 {
-    width: 1000px;
-    padding: 30px 0;
-    text-align: center;
-    background-color: lightblue;
-    margin-top: -20px;
-    display: none;
-    font-family: 'Mali', cursive;
-  }
-button{
-    background-color: #d9b97e;
-    font-weight: bold;
-    font-size: large;
-    border-radius: 90%;
-    position: relative;
-    left: 300px;
-    top: -60px;
+div.ref div.block a:active{
+    color: blue;
 }
 div.blank{
-    margin-top: 50px;
     background-color: #173040;
     width: 100%;
     height: 10ex;

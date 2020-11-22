@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #173040;
+    font-family: 'Xanh Mono', monospace;
 }
 nav {
     width: 100%;
