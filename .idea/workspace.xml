@@ -21,16 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2e4a5baa-252d-4ac7-9f36-460a4e5bcf54" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/About Me.css" beforeDir="false" afterPath="$PROJECT_DIR$/About Me.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Education.css" beforeDir="false" afterPath="$PROJECT_DIR$/Education.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Future Career.css" beforeDir="false" afterPath="$PROJECT_DIR$/Future Career.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/Home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Skill.css" beforeDir="false" afterPath="$PROJECT_DIR$/Skill.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aboutme.html" beforeDir="false" afterPath="$PROJECT_DIR$/aboutme.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/education.html" beforeDir="false" afterPath="$PROJECT_DIR$/education.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/futurecareer.html" beforeDir="false" afterPath="$PROJECT_DIR$/futurecareer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skill.html" beforeDir="false" afterPath="$PROJECT_DIR$/skill.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +76,7 @@
       <workItem from="1605991148061" duration="7000" />
       <workItem from="1605991687859" duration="3000" />
       <workItem from="1605991711491" duration="3000" />
+      <workItem from="1606070499416" duration="76000" />
     </task>
     <servers />
   </component>
